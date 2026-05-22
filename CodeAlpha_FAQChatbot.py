@@ -5,6 +5,7 @@ Features: NLP preprocessing, similarity ranking, confidence scoring, conversatio
 """
 import nltk
 nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('stopwords')
 import streamlit as st
 import numpy as np
