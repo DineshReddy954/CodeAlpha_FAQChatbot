@@ -3,7 +3,9 @@ CodeAlpha: FAQ Chatbot with NLP
 Uses TF-IDF vectorization and cosine similarity to match user questions with FAQ answers
 Features: NLP preprocessing, similarity ranking, confidence scoring, conversation history
 """
-
+import nltk
+nltk.download('punkt')
+nltk.download('stopwords')
 import streamlit as st
 import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
